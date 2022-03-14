@@ -1,5 +1,6 @@
 // ignore: file_names
 
+import 'package:continental_poc/Model/CountriesResponse.dart';
 import 'package:continental_poc/Model/model_data.dart';
 import 'package:equatable/equatable.dart';
 
@@ -13,7 +14,7 @@ abstract class TodocubitState extends Equatable {
 class TodocubitInitial extends TodocubitState {}
 
 class TodoLoaded extends TodocubitState {
-  final List<JsonData> data;
+  final CountriesResponse data;
   const TodoLoaded({required this.data});
 }
 

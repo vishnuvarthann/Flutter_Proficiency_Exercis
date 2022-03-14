@@ -40,6 +40,8 @@ dependencies:
   bloc: ^8.0.2
   connectivity_plus: ^2.2.0
   intl: ^0.17.0
+  cached_network_image: ^3.2.0
+  pull_to_refresh: ^2.0.0
 
 dev_dependencies:
   flutter_test:
@@ -62,6 +64,11 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  # assets:
+
+    # - assets/images/
+    # - data/database.db
 
   # To add assets to your application, add an assets section, like this:
   # assets:
